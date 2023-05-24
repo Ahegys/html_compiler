@@ -31,7 +31,7 @@ To get started with HTML Tag Modifier, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/html-tag-modifier.git
+   git clone https://github.com/Ahegys/html-tag-modifier.git
     ```
 2. Install the required dependencies:
     ```bash
