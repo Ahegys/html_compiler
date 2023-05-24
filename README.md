@@ -42,7 +42,7 @@ To get started with HTML Tag Modifier, follow these steps:
     ```
 3. Customize and configure the project as needed.
 
-##Usage
+## Usage
 
 1. Import the HTMLTagModifier class into your Ruby script:
     ```ruby
@@ -55,12 +55,15 @@ To get started with HTML Tag Modifier, follow these steps:
 3. Use the available methods to modify or create HTML tags:
     ```ruby
         # Modify an existing tag
-modifier.modify_tag('h1', 'New title')
+        modifier.modify_tag('h1', 'New title')```
 
 # Create a new tag
+```ruby
 modifier.create_tag('div', 'New div', { id: 'my-div', class: 'container' })
+```
 
 # Find tags by ID
+```ruby
 matches_by_id = modifier.find_by_id('my-div')
 if matches_by_id
   matches_by_id.each do |tag|
@@ -69,8 +72,10 @@ if matches_by_id
 else
   puts "No tags with the ID 'my-div' found."
 end
+```
 
 # Find tags by class name
+```ruby
 matches_by_class = modifier.find_by_class('highlight')
 if matches_by_class
   matches_by_class.each do |tag|
@@ -79,11 +84,11 @@ if matches_by_class
 else
   puts "No tags with the class 'highlight' found."
 end
-
+```
 # Display the updated content of the HTML file
+```ruby
 puts File.read('path/to/your/file.html')
-
-    ```
+```
 4.  Customize the code to fit your specific requirements.
 
 ## License
