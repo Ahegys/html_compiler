@@ -3,6 +3,7 @@ require_relative 'HTML/Tag'
 
 # Create an instance of HTMLTagModifier with the file path
 modifier = HTMLTagModifier.new('index.html')
+modifier.test_syntax_parser
 
 # Test the modify_tag function
 modifier.modify_tag('h1', 'New title')
