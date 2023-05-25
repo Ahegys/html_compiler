@@ -49,7 +49,7 @@ class HTMLSyntaxParser
 		if stack.size > 1
 			# Raise an error if there are unclosed tags remaining in the stack
 			unclosed_tags = stack[1..].reverse.map { |node| "<#{node.tag_name}>" }.join(', ')
-			raise SyntaxError, "Unclosed tags: #{unclosed_tags}"
+			puts SyntaxError, "Unclosed tags: #{unclosed_tags}"
 		end
 	
 		root

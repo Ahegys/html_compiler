@@ -74,8 +74,6 @@ class HTMLTagModifier
 	def test_syntax_parser
 		parser = HTMLSyntaxParser.new(@file_path)
 		syntax_tree = parser.parse
-		puts syntax_tree
-		print_syntax_tree(syntax_tree)
 	end
 
 	def print_syntax_tree(node, indent = '')
@@ -86,7 +84,6 @@ class HTMLTagModifier
 			node.children.each do |child|
 				print_syntax_tree(child, indent + '  ')
 			end
-			puts "#{indent}</#{node.tag_name}>"
 		end
 	end
 	

@@ -1,0 +1,9 @@
+<div class="title">A Brief History of AI</div>
+<div class="subtitle">The Beginning</div>
+<div class="text">The field of artificial intelligence research was founded on the claim that human intelligence "can be so precisely described that a machine can be made to simulate it."</div>
+
+<div class="subtitle">The Development</div>
+<div class="text">AI research has explored a number of approaches to creating intelligent systems, including symbolic reasoning, neural networks, and evolutionary computation.</div>
+
+<div class="subtitle">The Future</div>
+<div class="text">The future of AI is uncertain and full of potential. As technology continues to advance, the possibilities for AI are endless.</div>
