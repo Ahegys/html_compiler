@@ -55,7 +55,8 @@ To get started with HTML Tag Modifier, follow these steps:
 3. Use the available methods to modify or create HTML tags:
     ```ruby
         # Modify an existing tag
-        modifier.modify_tag('h1', 'New title')```
+        modifier.modify_tag('h1', 'New title')
+    ```
 
 # Create a new tag
 ```ruby
@@ -90,6 +91,14 @@ end
 puts File.read('path/to/your/file.html')
 ```
 4.  Customize the code to fit your specific requirements.
-
+```ruby
+  modifier.modify_tag('h2', File.read(ARGV[0]), { id: 'newName', class: 'container' })
+  modifier.create_tag('style', File.read(ARGV[1]))
+  # this must read the file specified in the argv, in this case we use the txt that has html and css tags
+```
+#### execute
+```bash
+ruby srcs/compiler.rb ./main.txt css.txt
+```
 ## License
 This project is licensed under the MIT License.
