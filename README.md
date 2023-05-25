@@ -14,7 +14,10 @@
   <br>
 </div>
 
-## About
+# ⚠️ Disclaimer
+  I'm doing this here for fun, for learning, I don't find it useful,
+  and it's not even ready, feel free to test and that's it
+ ## About
 
 HTML Tag Modifier is a Ruby project that provides a convenient way to modify and create HTML tags within an HTML file. It allows you to update the content and attributes of specific tags or create new tags with custom content and attributes. It simplifies the process of manipulating HTML files programmatically.
 
